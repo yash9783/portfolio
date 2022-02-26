@@ -1,0 +1,236 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.pro{
+  position: absolute;
+  padding: 5px;
+  color: white;
+
+}
+.progress{
+  height: 30px;
+  transition: 0.5s ease;
+}
+
+.progress:hover{
+  transform: scale(1.1);
+}
+
+.card img{
+  width: 200px;
+  height: 150px;
+  background-color: white;
+}
+.card{
+  transition: 0.5s ease;
+}
+.card:hover{
+  background-color: #734b6d;
+  color: white;
+  box-shadow: 5px 5px 10px #ffc3a0;
+  cursor: pointer;
+
+
+}
+
+.image{
+  width: 40vw;
+  height: 30vh;
+  margin-top: 15px;
+  margin-left: 90px;
+  transition: 0.5s ease;
+}
+.image:hover{
+  transform: scale(.3) translate(-10%, -10%);
+  border-radius: 10px 100px / 120px;
+}
+.em{
+
+  display: flex;
+  justify-content: center;
+}
+.copy{
+  display: none;
+}
+.co{
+  display: flex;
+  justify-content: center;
+}
+.details{
+  background-color:rgb(46, 46, 88);
+  color: white;
+  height: 70px;
+  margin-top: 20px;
+}
+.sub{
+background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+
+  color: var(--color);
+  transition: 0.25s;
+  
+ 
+}
+.sub:hover, 
+.sub:focus {
+  box-shadow: inset 0 0 0 2em var(--hover);
+}
+
+
+@media screen and (max-width:1840px) and (min-width:1140px) {
+  .ab{
+    margin-top: 50px;
+    text-align: center;
+  }
+  .image{
+    text-align: center;
+  }
+  
+}
+
+/* for Iphone12 pro */
+
+@media screen  and (min-width:390px) and (min-height:844px){ 
+  .image{
+    height:60px;
+    width: 200px;
+   
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 8px;
+
+  }
+  .yash{
+    position: relative;
+    bottom: 80px;
+  }
+  .em{
+    display: flex;
+   justify-content: center;
+}
+.co{
+  display: flex;
+  justify-content: center;
+  }
+  .copy{
+    display: none;
+  }
+}
+
+@media screen  and (min-width:320px) and (min-height:480px){
+  .image{
+    height:60px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 15px;
+
+  }
+  
+  .yash{
+    position: relative;
+    bottom: 80px;
+  }
+  .em{
+    display: flex;
+   justify-content: center;
+}
+.co{
+  display: flex;
+  justify-content: center;
+  }
+  .copy{
+    display: none;
+  }
+}
+
+
+@media screen  and (min-width:480px) and (min-height:320px){
+  .image{
+    margin: auto;
+    margin-top: 15px;
+    height:60px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 15px;
+
+  }
+  
+  .yash{
+    position: relative;
+    bottom: 80px;
+  }
+  .em{
+    display: flex;
+   justify-content: center;
+}
+.co{
+  display: flex;
+  justify-content: center;
+  }
+  .copy{
+    display: none;
+  }
+}
+
+@media screen  and (min-width:820px) and (min-height:1180px){
+  .image{
+    margin: auto;
+    margin-top: 15px;
+    height:60px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 15px;
+
+  }
+  
+  .yash{
+    position: relative;
+    bottom: 80px;
+  }
+  .em{
+    display: flex;
+   justify-content: center;
+}
+.co{
+  display: flex;
+  justify-content: center;
+  }
+  .copy{
+    display: none;
+  }
+  .ab{
+    display: flex;
+    justify-content: center;
+  }
+  .get{
+    margin-top: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+  
